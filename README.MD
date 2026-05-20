@@ -21,10 +21,10 @@
 | **`boldText(text)`** | `text` *(str)* | 🔄 Returns | `str` | Wraps the raw string inside the ANSI escape boundaries for bold display. |
 | **`paint(text, colour, bg, is_bold, is_underline)`** | `text` *(str)*, `colour` *(str, optional)*, `bg` *(str, optional)*, `is_bold` *(bool, optional)*, `is_underline` *(bool, optional)* | 🔄 Returns | `str` | Constructs a custom string configuration using specific styles without triggering immediate terminal output. |
 
-View `demo-code.py` for example code implementing ansify
-
 ## Installation
 To install `ansify` in locally editable mode, run the following command in the root directory:
 
 ```bash
 pip install -e .
+```
+View `demo-code.py` for example code implementing ansify
