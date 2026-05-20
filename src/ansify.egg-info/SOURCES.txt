@@ -1,7 +1,0 @@
-pyproject.toml
-src/ansify/__init__.py
-src/ansify/formatter.py
-src/ansify.egg-info/PKG-INFO
-src/ansify.egg-info/SOURCES.txt
-src/ansify.egg-info/dependency_links.txt
-src/ansify.egg-info/top_level.txt
