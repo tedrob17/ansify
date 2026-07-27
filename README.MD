@@ -1,4 +1,4 @@
-# ansify 1.0.6
+# ansify 1.0.7
  Ansify is a simple, zero-dependency Python module to print beautifully styled border text, success text, error text and warn text directly into your terminal.
 
 ---
