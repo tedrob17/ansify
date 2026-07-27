@@ -1,16 +1,33 @@
 import ansify
 
-print(f"{ansify.boldText("**Core Functions**")}")
-ansify.banner("Hello world!")
-ansify.success("Yes!")
-ansify.warn("Uhh.")
-ansify.error("That's not good..")
-print(ansify.boldText("Ooh, bold!"))
 
-print(f"\n{ansify.boldText("**Paint Engine**")}")
+def main():
+    # Core functions
+    print(ansify.boldText("Core Functions"))
+    ansify.banner("Hello, world!")
+    ansify.success("Success!")
+    ansify.warn("Warning!")
+    ansify.error("Something went wrong.")
+    print(ansify.boldText("Bold text example"))
 
-critical = ansify.paint(" Critical Error ", colour=ansify.white, bg=ansify.bg_red, is_bold=True)
-print(critical)
+    # Paint engine
+    print("\n" + ansify.boldText("Paint Engine"))
 
-underlined = ansify.paint("Read Online", is_underline=True, colour=ansify.cyan)
-print(underlined)
+    critical = ansify.paint(
+        " Critical Error ",
+        colour=ansify.white,
+        bg=ansify.bg_red,
+        is_bold=True,
+    )
+    print(critical)
+
+    underlined = ansify.paint(
+        "Read Online",
+        colour=ansify.cyan,
+        is_underline=True,
+    )
+    print(underlined)
+
+
+if __name__ == "__main__":
+    main()
